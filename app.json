@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/test/test",
+    "pages/logs/logs",
+    "pages/mine/mine",
+    "pages/orderList/orderList",
+    "pages/flowerType/flowerType",
+    "pages/flowerList/flowerList",
+    "pages/flowerGoods/flowerGoods",
+    "pages/fightGroups/fightGroups",
+    "pages/goodsSingle/goodsSingle",
+    "pages/fgSingle/fgSingle",
+    "pages/orderGood/orderGood",
+    "pages/orderMsg/orderMsg"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff4965",
+    "navigationBarTitleText": "郑州四季鲜花",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "#888888",
+    "selectedColor": "#ff4965",
+    "borderStyle": "block",
+    "list": [
+      {
+        "selectedIconPath": "images/indexed.png",
+        "iconPath": "images/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/fenleied.png",
+        "iconPath": "images/fenlei.png",
+        "pagePath": "pages/flowerType/flowerType",
+        "text": "分类"
+      },
+      {
+        "selectedIconPath": "images/mineed.png",
+        "iconPath": "images/mine.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  }
+}

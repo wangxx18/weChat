@@ -1,0 +1,15 @@
+<view class="hd-fight">
+  <view wx:for="{{imgListUrls}}" class="hd-fg-single-1">
+    <view class="hd-fg-img-1">
+      <image mode="widthFix" src="{{item.url}}"></image>
+    </view>
+    <view class="hd-fg-sbody-1">
+      <view class="hd-fg-stitle-1">超级鲜花大放送大大放送超级鲜花大放送大大放送超级鲜花大放送大大放送</view>
+      <view class="hd-fg-peonum-1">10人团|已有<text>999</text>人进团</view>
+      <view class="hd-fg-price-1 hd-clearFloat">
+        <text>￥19.9</text><text>￥19.9</text>
+        <view class="hd-fg-btn-1 hd-btn-1">去开团</view>
+      </view>
+    </view>
+  </view>
+</view>

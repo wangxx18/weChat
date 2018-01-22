@@ -1,0 +1,47 @@
+.hd-type-layout-1{
+  position: relative;
+  height:100%;
+  width:100%;
+  margin:0;
+}
+.hd-type-model-1{
+  position:absolute;
+  left:0;
+  top:0;
+  width:200rpx;
+}
+.hd-type-single{
+  width:100%;
+  padding:10px 0;
+  background: #f6f6f6;
+  font-size: 14px;
+  text-align: center;
+}
+.hd-flower-ed{
+  background: #fff;
+  color:#ff6b8f;
+}
+.hd-type-model-2{
+  margin-left:200rpx;
+  height:100%;
+}
+.hd-flower-single{
+  position: relative;
+  float:left;
+  text-align: center;
+  box-sizing: border-box;
+  width:50%;
+  padding:10rpx 0rpx 60rpx 0rpx;
+}
+.hd-flower-single image{
+  width:200rpx;
+  height:200rpx;
+}
+.hd-flower-single text{
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:100%;
+  font-size: 12px;
+  text-align: center;
+}

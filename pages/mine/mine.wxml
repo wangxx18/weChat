@@ -1,0 +1,32 @@
+<view class="page">
+  <view class="page__bd">
+      <view class="weui-cells weui-cells_after-title">
+          <view class="mine-userinfo">
+              <image class="mine-userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>   
+          </view>
+          <view url="" class="weui-cell weui-cell_access mine-font-1">
+              <view class="weui-cell__bd">昵称</view>
+              <view class="mine-userinfo-nickname">{{userInfo.nickName}}</view>
+          </view>
+          <navigator url="../orderList/orderList" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+              <view class="weui-cell__bd mine-font-1">历史订单</view>
+              <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+          </navigator>
+          <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+              <view class="weui-cell__bd mine-font-1">收货地址</view>
+              <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+          </navigator>
+          <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+              <view class="weui-cell__bd mine-font-1">技术支持</view>
+              <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+          </navigator>
+      </view>
+
+      <view class="weui-footer">
+            <view class="weui-footer__links">
+                <navigator url="" class="weui-footer__link">技术支持s</navigator>
+            </view>
+            <view class="weui-footer__text">Copyright © 2008-2016 weui.io</view>
+        </view>
+  </view>
+</view>

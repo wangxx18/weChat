@@ -1,0 +1,83 @@
+<view class="hd-type-layout-1">
+  <view class="hd-type-model-1">
+    <view data-num="1" class="hd-type-single {{_num==1 ? 'hd-flower-ed':''}}" bindtap="click">生日鲜花</view>
+    <view data-num="2" class="hd-type-single {{_num==2 ? 'hd-flower-ed':''}}" bindtap="click">爱情鲜花</view>
+    <view data-num="3" class="hd-type-single {{_num==3 ? 'hd-flower-ed':''}}" bindtap="click">开业花篮</view>
+    <view data-num="4" class="hd-type-single {{_num==4 ? 'hd-flower-ed':''}}" bindtap="click">孝顺长辈</view>
+  </view>
+  <view wx:if="{{_num==1}}" class="hd-type-model-2">
+    <view class="hd-flower-single">
+      <image src="{{hdImgPath.url}}"></image>
+      <text>鲜花1</text>
+    </view>
+    <view class="hd-flower-single">
+      <image src="{{hdImgPath.url}}"></image>
+      <text>鲜花1</text>
+    </view>
+    <view class="hd-flower-single">
+      <image src="{{hdImgPath.url}}"></image>
+      <text>鲜花1</text>
+    </view>
+    <view class="hd-flower-single">
+      <image src="{{hdImgPath.url}}"></image>
+      <text>鲜花1</text>
+    </view>
+  </view>
+
+  <view wx:if="{{_num==2}}" class="hd-type-model-2">
+    <view class="hd-flower-single">
+      <image src="{{hdImgPath.url}}"></image>
+      <text>鲜花12222222</text>
+    </view>
+    <view class="hd-flower-single">
+      <image src="{{hdImgPath.url}}"></image>
+      <text>鲜花12222222222</text>
+    </view>
+    <view class="hd-flower-single">
+      <image src="{{hdImgPath.url}}"></image>
+      <text>鲜花1</text>
+    </view>
+    <view class="hd-flower-single">
+      <image src="{{hdImgPath.url}}"></image>
+      <text>鲜花1</text>
+    </view>
+  </view>
+
+  <view wx:if="{{_num==3}}" class="hd-type-model-2">
+    <view class="hd-flower-single">
+      <image src="{{hdImgPath.url}}"></image>
+      <text>鲜花133333333</text>
+    </view>
+    <view class="hd-flower-single">
+      <image src="{{hdImgPath.url}}"></image>
+      <text>鲜花1</text>
+    </view>
+    <view class="hd-flower-single">
+      <image src="{{hdImgPath.url}}"></image>
+      <text>鲜花1</text>
+    </view>
+    <view class="hd-flower-single">
+      <image src="{{hdImgPath.url}}"></image>
+      <text>鲜花1</text>
+    </view>
+  </view>
+
+  <view wx:if="{{_num==4}}" class="hd-type-model-2">
+    <view class="hd-flower-single">
+      <image src="{{hdImgPath.url}}"></image>
+      <text>鲜花14444444</text>
+    </view>
+    <view class="hd-flower-single">
+      <image src="{{hdImgPath.url}}"></image>
+      <text>鲜花1</text>
+    </view>
+    <view class="hd-flower-single">
+      <image src="{{hdImgPath.url}}"></image>
+      <text>鲜花1</text>
+    </view>
+    <view class="hd-flower-single">
+      <image src="{{hdImgPath.url}}"></image>
+      <text>鲜花1</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,69 @@
+/* orderList.wxss */
+page,
+.page,
+.page__bd{
+    height: 100%;
+}
+.page__bd{
+    padding-bottom: 0;
+}
+.weui-tab__content{
+    text-align: center;
+}
+.wx-weui-tab{
+  background:#fff;
+}
+.weui-bar__item_on {
+  color:#ff4965 !important;
+}
+.weui-navbar__slider{
+   background:#ff4965 !important;
+}
+.hd-all-list-1{
+  position: relative;
+  padding:20rpx;
+  height:240rpx;
+  border-bottom:2rpx solid #eee;
+}
+.hd-all-list-1 image{
+  width:100%;
+}
+.hd-list-img-1{
+  position:absolute;
+  left:20rpx;
+  top:20rpx;
+  width:240rpx;
+  height:240rpx;
+}
+.hd-all-body-1{
+  margin-left:240rpx;
+  height:100%;
+}
+.hd-abody-head-1{
+  font-size: 30rpx;
+  overflow:hidden; 
+  text-overflow:ellipsis;
+  display:-webkit-box; 
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2;
+}
+.hd-abody-price{
+  color:#ff4965;
+  font-size:36rpx;
+  text-align: left;
+  padding:20rpx;
+}
+.hd-abody-text-1{
+  position: absolute;
+  right:20rpx;
+  bottom:20rpx;
+  color:#ff4965;
+  font-size:28rpx;
+}
+.hd-abody-text-2{
+  padding:10rpx 20rpx;
+  background:#ff4965;
+  color:#fff;
+  border-radius: 10rpx;
+}
+ 

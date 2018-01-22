@@ -1,0 +1,71 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.hd-bg{
+  width:100%;
+  height:200px;
+  
+}
+
+.hd-bg image{
+  width:100%;
+  height:200px;
+}
+
+.slide-image{  
+    width: 100%;  
+}  
+.hd-index-list image{
+  display:block;
+  width:100%;
+}
+.hd-index-gn-1 {
+  position:absolute;
+  right:20rpx;
+  top:20rpx;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+}
+.hd-index-top-1{
+  color:#ff6b8f;
+}
+.hd-youhui{
+  border-top:20rpx solid #eee;
+}
+.hd-youhui-head{
+  padding:10rpx 0;
+  text-align: left;
+  color:#ff6b8f;
+  border-bottom:1rpx solid #eee;
+}
+.hd-flex-item{
+  position:relative;
+  float:left;
+  width:50%;
+  height:120rpx;
+  line-height: 120rpx;
+  padding:0 10rpx;
+  box-sizing: border-box;
+  border-right:1rpx solid #eee;
+  border-bottom:1rpx solid #eee;
+}

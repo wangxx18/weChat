@@ -1,0 +1,40 @@
+<view class="hd-og">
+  <view class="hd-og-address" bindtap="chooseAddress">
+    <view wx:if="{{user_msg==0}}">请选择收货地址</view>
+    <view wx:if="{{user_msg==1}}">{{userName}}  {{telNumber}}</view>
+    <view wx:if="{{user_msg==1}}">{{provinceName}}{{cityName}}{{countyName}}{{detailInfo}}</view>
+  </view>
+
+  <view wx:if="{{orderType==0}}" class="hd-og-time-1">
+    <view class="">送达时间</view>
+    <view class="hd-og-tbody-1">
+        <view data-num="1" bindtap="timeClick" class="{{time_num==1 ? 'hd-og-timeCheck':''}}">
+        周六送达
+        8月19日
+        </view>
+        <view data-num="3" bindtap="timeClick" class="{{time_num==3 ? 'hd-og-timeCheck':''}}">
+        周一送达
+        8月21日
+        </view>
+       
+    </view>
+  </view>
+  <view class="hd-og-good">
+    <view class="hd-og-img">
+      <image mode="widthFix" src="{{imgListUrls.url}}"></image>
+    </view>
+    <view class="hd-og-body">
+      <view class="hd-og-title">极品鲜花大放送，回馈新老顾客大量优惠先到先得极品鲜花大放送，回馈新老顾客大量优惠先到先得</view>
+      <view class="hd-og-type">三个月，送保鲜剂</view>
+      <view class="hd-og-price-1">￥<span>99.9</span></view>
+    </view>
+  </view>
+
+  <view class="hd-og-textarea">
+    <view class="">备注</view>
+    <textarea placeholder="您备注的要求，我们会作为参考，并尽力做到" placeholder-style="color:#888;" />
+  </view>
+
+  <view class="hd-og-price-2">合计：<span>￥99.9</span></view>
+  <navigator url="../orderMsg/orderMsg" class="hd-og-btn-1">立即下单</navigator>
+</view>

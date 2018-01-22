@@ -1,0 +1,12 @@
+<view class="hd-flwlist-bg">
+  <view wx:for="{{imgListUrls}}" class="hd-fl-single-1">
+    <image mode="widthFix" src="{{item.url}}"></image>
+    <view class="hd-fl-sbody">
+      <view class="hd-sbody-title-1">鲜花品种鲜花品种鲜花品种鲜花品种鲜花品种鲜花品种鲜花品种鲜花品种鲜花品种</view>
+      <view class="hd-sbody-price-1">
+        <text>￥300</text>
+        <text>库存:99900</text>
+      </view>
+    </view>
+  </view>
+</view>

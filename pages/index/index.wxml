@@ -1,0 +1,63 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->
+<view class="page">
+    <view class="page__bd page__bd_spacing">
+        <swiper indicator-dots="{{indicatorDots}}"  
+                autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">  
+              <block wx:for="{{imgUrls}}">  
+                <swiper-item>  
+                  <navigator url="{{item.link}}" hover-class="navigator-hover">  
+                    <image src="{{item.url}}" class="slide-image" width="355" height="150"/>  
+                  </navigator>   
+                </swiper-item>  
+              </block>  
+        </swiper>
+        
+        <view class="hd-youhui">
+          <view class="hd-youhui-head">
+            优惠活动
+          </view> 
+          <navigator url="../fightGroups/fightGroups" class="hd-flex-item" hover-class="weui-cell_active">
+            <view class="hd-index-top-1">拼团</view>
+            <image class="hd-index-gn-1" src="{{hdImgPath.url}}"></image>
+          </navigator>
+          <navigator url="../flowerList/flowerList" class="hd-flex-item" hover-class="weui-cell_active">
+            <view class="hd-index-top-1">一周一花</view>
+            <image class="hd-index-gn-1" src="{{hdImgPath.url}}"></image>
+          </navigator>
+          <navigator url="../goodsSingle/goodsSingle" class="hd-flex-item" hover-class="weui-cell_active">
+            <view class="hd-index-top-1">周花单品</view>
+            <image class="hd-index-gn-1" src="{{hdImgPath.url}}"></image>
+          </navigator>
+          <navigator url="../fgSingle/fgSingle" class="hd-flex-item" hover-class="weui-cell_active">
+            <view class="hd-index-top-1">拼团单品</view>
+            <image class="hd-index-gn-1" src="{{hdImgPath.url}}"></image>
+          </navigator>
+          
+          <navigator url="../orderList/orderList" class="hd-flex-item" hover-class="weui-cell_active">
+            <view class="hd-index-top-1">历史订单</view>
+            <image class="hd-index-gn-1" src="{{hdImgPath.url}}"></image>
+          </navigator>
+          <navigator url="../orderGood/orderGood" class="hd-flex-item" hover-class="weui-cell_active">
+            <view class="hd-index-top-1">下订单</view>
+            <image class="hd-index-gn-1" src="{{hdImgPath.url}}"></image>
+          </navigator>
+          <navigator url="../orderMsg/orderMsg" class="hd-flex-item" hover-class="weui-cell_active">
+            <view class="hd-index-top-1">订单详情</view>
+            <image class="hd-index-gn-1" src="{{hdImgPath.url}}"></image>
+          </navigator>
+        </view>  
+        <view wx:for="{{imgListUrls}}" class="hd-index-list">
+            <image src="{{item.url}}" mode="widthFix"></image>
+        </view>
+    </view>
+</view>
+  

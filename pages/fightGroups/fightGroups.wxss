@@ -1,0 +1,66 @@
+.hd-fg-single-1{
+  position: relative;
+  height:260rpx;
+}
+.hd-fg-img-1{
+  position: absolute;
+  left:0;
+  top:0;
+  width:260rpx;
+  border:10rpx solid #fff;
+  box-sizing: border-box;
+}
+.hd-fg-img-1 image{
+  width:100%;
+}
+.hd-fg-sbody-1{
+  margin-left:260rpx;
+  height:260rpx;
+  box-sizing: border-box;
+  border-bottom:2rpx solid #eee;
+  padding:0 10rpx;
+}
+.hd-fg-stitle-1{
+  padding:10rpx 0;
+  font-size: 28rpx;
+  overflow:hidden; 
+  text-overflow:ellipsis;
+  display:-webkit-box; 
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2; 
+}
+.hd-fg-price-1{
+  margin-top:60rpx;
+}
+.hd-fg-price-1 text{
+  float:left;
+}
+.hd-fg-price-1 text:nth-child(1){
+   color:#ff4965;
+   font-size: 30rpx;
+   margin-right:10rpx;
+}
+.hd-fg-price-1 text:nth-child(2){
+   color:#a3a3a3;
+   font-size: 30rpx;
+   text-decoration:line-through;
+}
+.hd-fg-btn-1{
+  float:right;
+  font-size: 24rpx;
+  width:110rpx;
+  text-align: center;
+  height:44rpx;
+  line-height: 44rpx;
+}
+.hd-btn-1{
+  border-radius: 10rpx;
+  background:#ff4965;
+  color:#fff;
+}
+.hd-fg-peonum-1{
+  font-size: 24rpx;
+}
+.hd-fg-peonum-1 text{
+  color:#ff4965;
+}

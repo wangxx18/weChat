@@ -1,0 +1,65 @@
+<view class="hd-om-bg">
+  <view class="hd-og-good">
+    <view class="hd-og-img">
+      <image mode="widthFix" src="{{imgListUrls.url}}"></image>
+    </view>
+    <view class="hd-og-body">
+      <view class="hd-og-title">极品鲜花大放送，回馈新老顾客大量优惠先到先得极品鲜花大放送，回馈新老顾客大量优惠先到先得</view>
+      <view class="hd-og-type">三个月，送保鲜剂</view>
+      <view class="hd-og-price-1">￥<span>99.9</span></view>
+    </view>
+  </view>
+
+  <view class="hd-og-msg-1">
+    
+    <view class="hd-msg-list-1">
+      <view class="hd-msg-head-1">订单状态</view>
+      <view class="hd-msg-body-1">待付款</view>
+    </view>
+    <view class="hd-msg-list-1">
+      <view class="hd-msg-head-1">订单编号</view>
+      <view class="hd-msg-body-1">20170818234345</view>
+    </view>
+    <view class="hd-msg-list-1">
+      <view class="hd-msg-head-1">下单时间</view>
+      <view class="hd-msg-body-1">2017-08-18 17:53</view>
+    </view>
+    <view class="hd-border-1"></view>
+    <view class="hd-msg-list-1">
+      <view class="hd-msg-head-1">收货人/手机</view>
+      <view class="hd-msg-body-1">王一番   13592520253</view>
+    </view>
+    <view class="hd-msg-list-1">
+      <view class="hd-msg-head-1">收货地址</view>
+      <view class="hd-msg-body-1">河南省郑州市金水区金钱爆肚</view>
+    </view>
+    <view class="hd-msg-list-1">
+      <view class="hd-msg-head-1">送达时间</view>
+      <view class="hd-msg-body-1">周六送达(8月19号)</view>
+    </view>
+    <view class="hd-border-1"></view>
+    <view class="hd-msg-list-1">
+      <view class="hd-msg-head-1">备注</view>
+      <view class="hd-msg-body-1">早上送</view>
+    </view>
+    <view class="hd-msg-list-1">
+      <view class="hd-msg-head-1">商品总额</view>
+      <view class="hd-msg-body-1">￥99.9</view>
+    </view>
+    <view class="hd-msg-list-1">
+      <view class="hd-msg-head-1">运费</view>
+      <view class="hd-msg-body-1">￥0.00</view>
+    </view>
+    <view class="hd-msg-list-1">
+      <view class="hd-msg-head-1">付款金额</view>
+      <view class="hd-msg-body-1 hd-color-1">￥99.9</view>
+    </view>
+  </view>
+
+  <view class="hd-og-pay-1">
+    <view class="hd-og-btn-2 hd-og-border-2">确认支付</view>
+    <view class="hd-og-btn-2 hd-og-border-1">取消订单</view>
+  </view>
+
+
+</view>

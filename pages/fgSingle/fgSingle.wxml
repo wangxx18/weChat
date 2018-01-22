@@ -1,0 +1,21 @@
+<view wx:for="{{imgListUrls}}" class="hd-gs-list">
+  <image src="{{item.url}}" mode="widthFix"></image>
+</view>
+<view class="hd-gs-price">￥<span>99.99</span></view>
+<view class="hd-gs-model-1">
+  <view class="hd-gs-name">
+    <span class="hd-gs-xsms-1">限时秒杀</span>
+    内衬白色梦幻纸，外用原色牛皮纸单面包装，拉菲草（或精美蝴蝶结）系扎
+  </view>
+  <view class="hd-gs-body-1">
+  </view>
+</view>
+
+<view wx:for="{{imgListUrls2}}" class="hd-gs-list">
+  <image src="{{item.url}}" mode="widthFix"></image>
+</view>
+<navigator url="../orderGood/orderGood?orderType=1" class="hd-pt-pay-1">
+  <view class="hd-pt-paybtn-1">
+    <view class="">￥22.0（2人团）</view>
+  </view>
+</navigator>

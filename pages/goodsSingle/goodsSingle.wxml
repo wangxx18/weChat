@@ -1,0 +1,42 @@
+<view wx:for="{{imgListUrls}}" class="hd-gs-list">
+  <image src="{{item.url}}" mode="widthFix"></image>
+</view>
+<view class="hd-gs-price">￥<span>99.99</span></view>
+<view class="hd-gs-model-1">
+  <view class="hd-gs-name">
+    <span class="hd-gs-xsms-1">限时秒杀</span>
+    内衬白色梦幻纸，外用原色牛皮纸单面包装，拉菲草（或精美蝴蝶结）系扎
+  </view>
+  <view class="hd-gs-body-1">
+    <view class="hd-gs-model-2">
+      <view class="hd-gs-title-1">订几个月</view>
+      <view class="hd-gs-model-3">
+
+        <view data-num="1" bindtap="monthClick" class="{{month_num==1 ? 'hd-gs-checked-1':''}}">1个月</view>
+        <view data-num="3" bindtap="monthClick" class="{{month_num==3 ? 'hd-gs-checked-1':''}}">3个月</view>
+        <view data-num="6" bindtap="monthClick" class="{{month_num==6 ? 'hd-gs-checked-1':''}}">6个月</view>
+        <view data-num="12" bindtap="monthClick" class="{{month_num==12 ? 'hd-gs-checked-1':''}}">12个月</view>
+
+      </view>
+    </view>
+    <view class="hd-gs-model-2">
+      <view class="hd-gs-title-1">周边小物</view>
+      <view class="hd-gs-model-4">
+        <view data-num="1" bindtap="wpClick" class="{{wp_num==1 ? 'hd-gs-checked-1':''}}">送花瓶</view>
+        <view data-num="2" bindtap="wpClick" class="{{wp_num==2 ? 'hd-gs-checked-1':''}}">送保鲜剂</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view wx:for="{{imgListUrls2}}" class="hd-gs-list">
+  <image src="{{item.url}}" mode="widthFix"></image>
+</view>
+
+<view class="hd-gs-pay-1">
+  <view class="hd-index-icon">
+    <image src="../../images/index.png"></image>
+    <view>首页</view>
+  </view>
+  <navigator url="../orderGood/orderGood?orderType=0" class="hd-gs-paybtn-1">立即购买</navigator> 
+</view>

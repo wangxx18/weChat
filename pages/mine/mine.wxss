@@ -1,0 +1,23 @@
+/* pages/mine/mine.wxss */
+.mine-userinfo {
+  text-align:center;
+  align-items: center;
+  padding:30rpx 0;
+}
+
+.mine-userinfo-avatar {
+  display: inline-block;
+  width: 120rpx;
+  height: 120rpx;
+  margin: 10rpx;
+  border-radius: 50%;
+  box-shadow: 0 0 10rpx #888888;
+}
+
+.mine-userinfo-nickname {
+  color: #aaa;
+}
+.mine-font-1 {
+  font-size: 16px;
+  color: #333;
+}
